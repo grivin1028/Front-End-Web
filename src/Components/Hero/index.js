@@ -22,10 +22,10 @@ const Hero = () => {
           </div>
           <div
             className="
-                      hero-figure
-                      reveal-from-bottom
-                      illustration-element-01
-                    "
+                                      hero-figure
+                                      reveal-from-bottom
+                                      illustration-element-01
+                                  "
             data-reveal-value="20px"
             data-reveal-delay={800}
           >
