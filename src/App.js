@@ -1,6 +1,9 @@
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Clients from "./Components/Clients";
+import Features from "./Components/Features";
+import Pricing from "./Components/Pricing";
+
 const App = () => {
   return (
     <div className="body-wrap">
