@@ -3,6 +3,7 @@ import Hero from "./Components/Hero";
 import Clients from "./Components/Clients";
 import Features from "./Components/Features";
 import Pricing from "./Components/Pricing";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
