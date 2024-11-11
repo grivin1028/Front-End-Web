@@ -11,11 +11,11 @@ const App = () => {
     <Header />
     <main className="site-content">
      <Hero/>
-     <Clients/>
-     <Features/>
-     <Pricing/>
+     <Clients />
+     <Features />
+     <Pricing />
     <main /> 
-    <footer/>
+    <footer />
     </div> 
 
   );
