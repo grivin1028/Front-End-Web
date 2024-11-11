@@ -1,109 +1,12 @@
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
+
 const App = () => {
   return (
     <div className="body-wrap">
-      <header className="site-header reveal-from-bottom">
-        <div className="container">
-          <div className="site-header-inner">
-            <div className="brand">
-              <h1 className="m-0">
-                <a href="index.html">
-                  <img
-                    src="images/logo.svg"
-                    alt="Cube"
-                    width={32}
-                    height={32}
-                  />
-                </a>
-              </h1>
-            </div>
-            <button
-              id="header-nav-toggle"
-              className="header-nav-toggle"
-              aria-controls="primary-menu"
-              aria-expanded="false"
-            >
-              <span className="screen-reader">Menu</span>
-              <span className="hamburger">
-                <span className="hamburger-inner" />
-              </span>
-            </button>
-            <nav id="header-nav" className="header-nav">
-              <div className="header-nav-inner">
-                <ul className="list-reset text-xxs header-nav-right">
-                  <li>
-                    <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <a href="#">Features</a>
-                  </li>
-                  <li>
-                    <a href="#">Pricing</a>
-                  </li>
-                  <li>
-                    <a href="#">Showcase</a>
-                  </li>
-                </ul>
-                <ul className="list-reset header-nav-right">
-                  <li>
-                    <a
-                      className="
-                            button
-                            button-primary
-                            button-wide-mobile
-                            button-sm
-                          "
-                      href="#"
-                    >
-                      Sign up
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Header />
       <main className="site-content">
-        <section className="hero section center-content illustration-section-01">
-          <div className="container-sm">
-            <div className="hero-inner section-inner">
-              <div className="hero-content">
-                <h1
-                  className="mt-0 mb-16 reveal-from-bottom"
-                  data-reveal-delay={200}
-                >
-                  Landing template for startups
-                </h1>
-                <div className="container-xs">
-                  <p
-                    className="mt-0 mb-32 reveal-from-bottom"
-                    data-reveal-delay={400}
-                  >
-                    Our landing page template works on all devices, so you only
-                    have to set it up once, and get beautiful results forever.
-                  </p>
-                </div>
-              </div>
-              <div
-                className="
-                      hero-figure
-                      reveal-from-bottom
-                      illustration-element-01
-                    "
-                data-reveal-value="20px"
-                data-reveal-delay={800}
-              >
-                <img
-                  className="has-shadow"
-                  src="images/hero-image.png"
-                  alt="Hero image"
-                  width={896}
-                  height={504}
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+        <Hero />
         <section className="clients section reveal-fade">
           <div className="container">
             <div
